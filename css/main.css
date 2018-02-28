@@ -1,0 +1,39 @@
+body {
+  height: 100vh;
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+  align-content: center;
+}
+
+body > * {
+  flex: 1 100%;
+}
+
+.message {
+  margin-bottom: 1em;
+  color: #6C7A89;
+  font-size: x-large;
+}
+
+a {
+  color: #6C7A89;
+  text-decoration: none;
+}
+
+p {
+  margin: 0 0 1em 0;
+}
+
+.link {
+  margin: 0.25em;
+}
+
+.links svg {
+  transition: transform 0.3s, color 0.3s;
+}
+
+.links a:hover svg {
+  color: #000;
+  transform: scale(1.25);
+}
