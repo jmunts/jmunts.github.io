@@ -5,6 +5,13 @@ body {
   text-align: center;
   align-content: center;
   font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+}
+
+@media (orientation: portrait) {
+  body {
+    font-size: 3rem;
+  }
 }
 
 body > * {
@@ -14,7 +21,6 @@ body > * {
 .message {
   margin-bottom: 1em;
   color: #6C7A89;
-  font-size: x-large;
 }
 
 a {
